@@ -1,0 +1,23 @@
+{
+  "name": "ethers-js-examples",
+  "version": "1.0.0",
+  "description": "This is a test app for working with ethers.js library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "accounts": "ts-node examples/1_accounts.ts",
+    "read-smart-contracts": "ts-node examples/2-read-smart-contracts.ts",
+    "write-contract": "ts-node examples/4-write-contract.ts",
+    "start": "ts-node",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "ethers": "^6.13.5"
+  }
+}
